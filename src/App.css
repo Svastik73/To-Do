@@ -1,0 +1,85 @@
+
+body{
+  background-color: rgb(14, 17, 17);
+}
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.to-do-list{
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin-top: 100px;
+}
+h1{
+  font-size: 4rem;
+  color: white;
+}
+button{
+  font: 1.4rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  color: aliceblue;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.5 ease;
+  text-align: center;
+}
+.add-button{
+  background-color: yellowgreen;
+}
+.add-button:hover{
+  background-color: aquamarine;
+}
+.delete-button{
+  background-color:maroon;
+  padding: 8px 12px;
+  margin-left: 10px;
+  height: 47px;
+  width: 60px;
+}
+.delete-button:hover{
+  background-color: red;
+}
+.move-button{
+  background-color: #61dafb;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.move-button:hover{
+  background-color: blue;
+}
+
+input[type="text"]{
+  font-size: 1.6rem;
+  padding: 10px;
+  border: 2px solid chocolate;
+  color: black;
+}
+ol{
+  padding: 0;
+}
+li{
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 15px;
+  background-color: aliceblue;
+  margin-bottom: 10px;
+  border:3px solid burlywood;
+  border-radius: 5px;
+  display:flex;
+  align-items: center;
+}
+.text{
+  flex:1;
+}
+
