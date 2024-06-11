@@ -18,7 +18,7 @@ function Todo(){
   }
  function moveTaskDown(index){
   const siz=tasks.length;
-  if(index!=siz-1){
+  if(index!==siz-1){
     const updateTask=[...tasks];
     [updateTask[index],updateTask[index+1]]=[updateTask[index+1],updateTask[index]];
     setTask(updateTask);
@@ -29,7 +29,7 @@ function Todo(){
  }
  function moveTaskUp(index){
    
-     if(index!=0){
+     if(index!==0){
        const updateTask=[...tasks];
        [updateTask[index],updateTask[index-1]]=[updateTask[index-1],updateTask[index]];
        setTask(updateTask);
