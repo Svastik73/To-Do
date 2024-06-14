@@ -58,7 +58,27 @@ button{
 .move-button:hover{
   background-color: blue;
 }
-
+.subchange{
+  color:black;
+  background-color: greenyellow;
+}
+.subchange:hover{
+   background-color: rgb(8, 118, 54);
+}
+.cancel{
+  background-color: tomato;
+}
+.cancel:hover{
+  background-color: maroon;
+}
+.rename{
+  background-color: beige;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.rename:hover{
+  background-color: cadetblue;
+}
 input[type="text"]{
   font-size: 1.6rem;
   padding: 10px;
